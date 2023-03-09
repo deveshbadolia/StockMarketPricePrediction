@@ -6,4 +6,3 @@ pandas
 tensorflow
 matplotlib
 pyplot
-pandas_datareader

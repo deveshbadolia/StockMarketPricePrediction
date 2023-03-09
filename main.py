@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import pickle
-import pandas_datareader as data
+
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential

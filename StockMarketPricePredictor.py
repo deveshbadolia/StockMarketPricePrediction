@@ -20,7 +20,7 @@ st.title('Stock Market Prediction')
 user_input = st.text_input("Enter Stock Ticker", 'GOOG')
 df = yf.download(user_input, start , end)
 
-model = pickle.load(open("Stock_market.pkl",'rb'))
+model = pickle.load(open("/home/ubuntu/StockMarketPricePrediction/Stock_market.pkl",'rb'))
 
 scaler = MinMaxScaler(feature_range=(0,1))
 new_df= df.filter(['Close'])
